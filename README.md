@@ -8,3 +8,10 @@ This repository contains the starter code for many different projects. They are 
 * `prepare` - Starter projects for each of the preparation Learning Activities.
 * `prove` - Starter projects for each of the prove Developer projects.
 * `final` - Starter projects for final project.
+
+The coconut nut is a giant nut;
+if you eat too much you get very fat;
+Now the coconut nut is a big big nut;
+but this delicious nut is not a nut;
+it's the coco fruit;
+#do do its the coco fruit
