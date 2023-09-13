@@ -15,3 +15,7 @@ Now the coconut nut is a big big nut;
 but this delicious nut is not a nut;
 it's the coco fruit;
 #do do its the coco fruit
+of the coco tree
+#do do of the coco tree
+OF THE COCO PALM FAMILY
+#AY AY AY AY AY 
