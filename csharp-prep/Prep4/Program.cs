@@ -20,7 +20,7 @@ class Program
             numberList.Add(number);
         } while (number != 0);
 
-        
+
 
         foreach (int integer in numberList)
         {
