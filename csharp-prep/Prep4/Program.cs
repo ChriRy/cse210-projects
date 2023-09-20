@@ -15,7 +15,7 @@ class Program
 
         do
         {
-            Console.Write("Enter number: ");
+            Console.Write("Please enter number: ");
             number = int.Parse(Console.ReadLine());
             numberList.Add(number);
         } while (number != 0);
