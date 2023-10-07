@@ -20,7 +20,8 @@ class Program
         Console.WriteLine("2. Display");
         Console.WriteLine("3. Load");
         Console.WriteLine("4. Save");
-        Console.WriteLine("5. Quit");
+        Console.WriteLine("5. Add Prompt");
+        Console.WriteLine("6. Quit");
         
         Console.WriteLine("What would you like to do?" );
         string userChoice = Console.ReadLine();
@@ -51,7 +52,12 @@ class Program
                 Journal saveJournal = new Journal();
                 saveJournal.SaveJournal(entries);
             }
-            else if (userChoice == "5") // Quit
+            else if (userChoice == "5")
+            {
+                Prompt addPrompt = new Prompt();
+                addPrompt.AddPrompt();
+            }
+            else if (userChoice == "6") // Quit
             {
                 Console.WriteLine("Goodbye!");
                 loop = false;
