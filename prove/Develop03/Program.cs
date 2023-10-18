@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        Reference verse = new Reference("Alma1", "4", "15");
+
+        Scripture scripture = new Scripture(verse.GetReference());
+
+        scripture.Display();
     }
 }
