@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 public class Word
 {
     private string _word;
@@ -12,14 +14,9 @@ public class Word
         return _word;
     }
 
-    public string Hide()
+    public string Hide(string word)
     {
-        int count = _word.Length;
-        string hiddenWord = "";
-        for (int i=0; i<count;i++)
-        {
-            hiddenWord = $"{hiddenWord}_";
-        }
-        return hiddenWord;
+        word = Regex.Replace(word, @"[A-Z,a-z]","_");
+        return word;
     }
 }
