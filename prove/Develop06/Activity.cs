@@ -50,7 +50,7 @@ public class Activity
         {
             string dot = loading[i];
             Console.Write(dot);
-            Thread.Sleep(1000);
+            Thread.Sleep(100);
             Console.Write("\b \b");
 
             i++;
