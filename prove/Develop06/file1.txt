@@ -1,0 +1,6 @@
+User:Ryan|Novice|119|2
+Goal:Simple|Go shopping|go to the store|2|1|True
+Goal:Checklist|Run|Run 15 miles|6|11|False
+Goal:Checklist|Temple trip|go to the temple|4|5|False
+Goal:Checklist|test|test|1|3|False
+Goal:Eternal|Read scriptures|personal study every day|5|30|False|0
