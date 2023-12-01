@@ -9,7 +9,9 @@ public class Menu
 
     public void TitleScreen()
     {
+        Console.WriteLine("||_-~-_||_-~-_||_-~-_|||_-~-_||||_-~-_||||_-~-_||||_-~-_||||_-~-_||||_-~-_||||_-~-_||\n");
         Console.WriteLine("Welcome to Corona Quest! \n");
+        Console.WriteLine("||_-~-_||_-~-_||_-~-_|||_-~-_||||_-~-_||||_-~-_||||_-~-_||||_-~-_||||_-~-_||||_-~-_||\n");
     }
 
     public void ChooseProfile()
@@ -263,13 +265,13 @@ public class Menu
         Clear();
     }
 
-
     public void Journal()
     {
         Console.WriteLine("This is where you can see your personal progress. Level up as much as you can! \n");
         _user.Stats();
         Clear();
     }
+
     public void Clear()
     {
         Console.WriteLine("Press enter to continue... ");
@@ -277,3 +279,4 @@ public class Menu
         Console.Clear();
     }
 }
+

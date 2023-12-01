@@ -64,13 +64,20 @@ public class Goal
     public void Attack(User user)
     {
         Random i = new Random();
-        int attack = i.Next(1, 5);
+        // int attack = i.Next(1, 5);
+        int attack = 3;
         Console.WriteLine("The monster attacks! Choose a number between 1 and 5 to defend yourself!");
         int defense = Convert.ToInt16(Console.ReadLine());
 
-        if (defense == attack || defense == attack + 1 || defense == attack - 1)
+        if (defense == (attack + 1) || defense == (attack - 1))
         {
             Console.WriteLine("You successfully blocked the attack.");
+        }
+        else if (defense == attack)
+        {
+            Console.WriteLine("You block the monster head on and hit it with a counter attack!");
+            Console.WriteLine("Your skill earns you 5 exp!");
+            user.AddExp(5);
         }
         else
         {
