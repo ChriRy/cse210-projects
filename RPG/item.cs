@@ -11,6 +11,11 @@ public abstract class Item
         target.Heal(health);
     }
 
+    public void Motivate(Hero target, int motivation)
+    {
+        target.Motivate(motivation);
+    }
+
     public void ResetStatus(Hero target)
     {
         target.UpdateStatus("normal");
@@ -21,8 +26,15 @@ public abstract class Item
         return _price;
     }
 
-    public void GetName()
+    public string? GetName()
     {
-        Console.WriteLine($"{_name}");
+        return _name;
     }
+
+    public string? GetDescription()
+    {
+        return _description;
+    }
+
+    public virtual void Use(Hero hero) { }
 }

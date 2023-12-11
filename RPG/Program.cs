@@ -1,14 +1,19 @@
 ﻿Console.Clear();
 Medication steve = new Medication("Steve from Accounting");
-Medication mike = new Medication("Mike from HR");
-Boredom boredom1 = new Boredom("Boredom 1");
-Boredom boredom2 = new Boredom("Boredom 2");
+Counselor mike = new Counselor("Mike from HR");
+
+
 
 Team party = new Team(steve);
 party.AddPartyMember(mike);
+party.AddGold(20);
 
-List<Enemy> enemies = new List<Enemy>() { boredom1 };
+List<Item> itemList = new List<Item>() { new Ether(), new Ether(), new Potion(), new Potion(), new Mtndew(), new Mtndew() };
+party.AddItems(itemList);
+
+// Shop store = new Shop(party);
+
+List<Enemy> enemies = new List<Enemy>() { new Boredom(), new Anxiety(), new Loneliness() };
 
 Battle round = new Battle(party, enemies);
 round.BattleLoop();
-
