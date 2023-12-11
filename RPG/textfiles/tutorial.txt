@@ -1,0 +1,6 @@
+Narrator|0|You arrive at your first location in the subconscious, the Fields of Perception. 
+Narrator|0|Almost immediately, you are attacked by a monster!
+Narrator|33|The battlefield will display the name and health of all contenders. When it's your turn, your name will be highlighted.
+Narrator|33|When it's your turn, type one of the letters in square brackets to select an option. 
+Narrator|33|You can choose to attack or use a special move. Special moves are more powerful, but cost motivation to cast. 
+Narrator|0|You begin to fight the monster! Good luck, hero!

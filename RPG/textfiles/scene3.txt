@@ -1,0 +1,3 @@
+Narrator|0|You step out of the shop, prepared for the journey ahead of you. 
+Narrator|0|You know that there are more monsters to fight, as well as more allies to find. 
+Narrator|0|You stare dramatically into the distance as you prepare to embark on your journey...

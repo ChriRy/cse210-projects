@@ -1,0 +1,8 @@
+Narrator|0|After you defeat the monster, you see a person approaching you from across the field. You go to meet them. 
+Thera|32|"You must be another one of the heroes the Shoulder Angel sent! I'm Thera P, good to meet you."
+Thera|32|"What do you say we team up? It'll be easier to fight the monsters that way."
+Narrator|0|Right as she says that, you see a new group of monsters approaching. 
+Thera|32|"Here they come, get ready!"
+Narrator|33|Thera has joined your party.
+Narrator|33|She is a different character class than you, so she has access to different abilities and skills.
+Narrator|0|Prepare yourself! The monsters approach!

@@ -20,6 +20,7 @@ public class Battle
         _turn = 0;
         _contenders.AddRange(_heroes);
         _contenders.AddRange(enemies);
+        BattleLoop();
     }
 
     public void EnemyCount()

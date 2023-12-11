@@ -1,0 +1,13 @@
+Narrator|0|There was once a child who was watched over by a Shoulder Angel and a Shoulder Devil.
+Narrator|0|As the child went about his days, both beings would attempt to influence his actions, for good or for evil.
+Narrator|0|Much to the frustration of the Shoulder Devil, the child frequently followed the advice of the Shoulder Angel. 
+Narrator|0|The Shoulder Devil grew angry and sought for a way to weaken the strong will of the child.
+Narrator|0|One day, the Shoulder Devil discovered a way to form negative thoughts and feelings into terrible creatures.
+Narrator|0|He unleashed these monsters in the child's mind, and the monsters wreaked havoc on the child's subconscious.
+Shoulder Devil|31|"Once my monsters overtake the child's mind, I'll finally be victorious!"
+Narrator|0|When the Shoulder Angel discovered this, she took immediate action.
+Narrator|0|She collected positive thoughts and actions and formed these into heroes to slay the child's inner demons.
+Narrator|0|And that is where you come in...
+Angel|36|"Hero, it is up to you to slay the demons that seek to overtake the child's mind. Seek for other heroes to join you."
+Angel|36|"I have faith in you. Be strong!"
+Narrator|0|And so begins your quest to fight the demons of the mind and foil the evil Shoulder Devil's plans...

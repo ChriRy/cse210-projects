@@ -1,0 +1,5 @@
+Narrator|0|You and your new teammate are victorious over the monsters.
+Thera|32|"Nice job! That took a lot out of me."
+Thera|32|"You're probably hurt as well. There's a shop nearby where we can get the supplies that we need to keep going."
+Narrator|0|Thera leads you towards the shop.
+Narrator|33|Monsters drop gold which you can use to purchase items in shops. You can also sell any items you find on your journey.
