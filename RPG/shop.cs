@@ -6,6 +6,10 @@ public class Shop
         new Potion(),
         new Ether(),
         new Mtndew(),
+        new Snickers(),
+        new Redbull(),
+        new SpriteCranberry(),
+        new Yogurt(),
     };
 
 
@@ -107,13 +111,13 @@ public class Shop
                     Console.WriteLine($"You have {_party.CheckGold()} gold left. ");
                     Wait();
                 }
+                else if (answer == "n")
+                { }
                 else if (_party.CheckGold() < item.GetPrice())
                 {
                     Console.WriteLine("Sorry, you don't have enough gold. ");
                     Wait();
                 }
-                else if (answer == "n")
-                { }
                 else
                 {
                     Console.WriteLine("Invalid input. ");

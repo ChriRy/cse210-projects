@@ -1,20 +1,10 @@
 [X] Create status system (stunned, charging, etc)
 [X] Create item system (including monster loot drop)
-[ ] Shop system
-[ ] Cutscene handler (reads through txt file and follow's the users speed. Slow typing like Ruby's project?)
+[X] Shop system
+[X] Cutscene handler (reads through txt file and follow's the users speed. Slow typing like Ruby's project?)
 [X] Fix color system (GetName in contender, enemy, and hero)
 [ ] Emotional damage is special move (gives status effect burn because you got roasted)
 [ ] Guide character is the person's intrusive thoughts and randomly says very concerning thigns (named Lloyd?)
-
-
-     OOOOOO      O      O      OOO   OOO       OOOOO
-    OO    OO     O      O     O   O O   O      O    OO
-    OO    OO     O      O    O     O     O     O      O
-     OO          O      O    O           O     O      O
-      OOOO       OOOOOOOO     O         O      O     OO
-         OO      O      O      O       O       OOOOOO
-    OO     OO    O      O       O     O        O
-    OO     OO    O      O        O   O         O
-      OOOOOO     O      O          O           O
+[ ] Create modifier system for taking damage and dealing damage
 
 

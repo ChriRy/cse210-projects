@@ -10,7 +10,8 @@ public abstract class Contender
     protected int _defense;
     protected int _luck;
     protected string _status = "normal";
-    protected int _modifier;
+    protected int _damageModifier;
+    protected int _attackModifier;
     protected string _color = "32";
 
     public void UpdateStatus(string status)
@@ -27,23 +28,24 @@ public abstract class Contender
     {
         double defense = (double)_defense / 100;
         double block = Math.Ceiling(defense * (double)_defense);
-        int carryover = damage - (int)block + _modifier;
+        int carryover = damage - (int)block + _damageModifier;
         _health -= carryover;
-        _modifier = 0;
         if (_status == "self-critical")
         {
             Console.WriteLine($"{_name} is feeling \u001b[36mself critical\u001b[0m! They take extra damage");
             _status = "normal";
         }
+        _damageModifier = 0;
     }
 
     public virtual void BasicAttack(Contender target)
     {
         double strength = (double)_strength / 100;
         double boost = Math.Ceiling(strength * (double)_basicAttack);
-        int damage = _basicAttack + (int)boost;
+        int damage = _basicAttack + (int)boost + _attackModifier;
         target.TakeDamage(damage);
         Console.WriteLine($"The target took {damage} damage! ");
+        _attackModifier = 0;
     }
 
     public virtual string GetName()
@@ -56,11 +58,15 @@ public abstract class Contender
         return _name;
     }
 
-    public int GetHealth()
+    public int GetHealth(bool max = false)
     {
         if (_health > 0)
         {
             return _health;
+        }
+        else if (max)
+        {
+            return _maxHealth;
         }
         else
         {
@@ -68,9 +74,15 @@ public abstract class Contender
         }
     }
 
-    public void AddModifier(int i)
+    // modifiers can be positive or negative depending on the context
+    public void AddDamageModifier(int i)
     {
-        _modifier = i;
+        _damageModifier = i;
+    }
+
+    public void AddAttackModifier(int i)
+    {
+        _attackModifier = i;
     }
 
     public int GetRandom(int max)

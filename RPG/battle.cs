@@ -503,7 +503,7 @@ public class Battle
 
     public void Burn(Contender contender)
     {
-        Console.WriteLine($"{contender.GetName()} is \u001b[31mburned\u001b[0m! They took 2 damage. \n");
+        Console.WriteLine($"{contender.GetName()} is \u001b[31mburned\u001b[0m! They took 3 damage. \n");
         contender.TakeDamage(3);
     }
 }
